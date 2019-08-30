@@ -12,6 +12,7 @@
 		9855D67823133DFB00235FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9855D67623133DFB00235FE9 /* Main.storyboard */; };
 		9855D67A23133DFC00235FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9855D67923133DFC00235FE9 /* Assets.xcassets */; };
 		9855D67D23133DFC00235FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9855D67B23133DFC00235FE9 /* LaunchScreen.storyboard */; };
+		9855D68523133E5D00235FE9 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855D68423133E5D00235FE9 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9855D67923133DFC00235FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9855D67C23133DFC00235FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9855D67E23133DFC00235FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9855D68423133E5D00235FE9 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9855D67223133DFB00235FE9 /* AppDelegate.swift */,
+				9855D68423133E5D00235FE9 /* LocalNotificationManager.swift */,
 				9855D67423133DFB00235FE9 /* ViewController.swift */,
 				9855D67623133DFB00235FE9 /* Main.storyboard */,
 				9855D67923133DFC00235FE9 /* Assets.xcassets */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9855D68523133E5D00235FE9 /* LocalNotificationManager.swift in Sources */,
 				9855D67523133DFB00235FE9 /* ViewController.swift in Sources */,
 				9855D67323133DFB00235FE9 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMT6QQ8EK5;
 				INFOPLIST_FILE = NotificationExperiment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMT6QQ8EK5;
 				INFOPLIST_FILE = NotificationExperiment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
