@@ -55,6 +55,7 @@ class LocalNotificationManager
         {
             let content      = UNMutableNotificationContent()
             content.title    = notification.title
+            content.body     = notification.message
             content.sound    = .default
             
             let trigger = UNCalendarNotificationTrigger(dateMatching: notification.datetime, repeats: false)
